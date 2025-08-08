@@ -1,11 +1,2 @@
-<!-- Safe demonstration — logs harmless text -->
-<script>
-(function(){
-    // This code simulates an XSS trigger
-    const marker = 'XSS_TEST_' + Date.now();
-    console.log('XSS proof-of-concept triggered: ' + marker);
+<script>alert("Hacked")</script>
 
-    // Optionally, highlight part of the page for visibility
-    document.body.style.background = '#ffcc00';
-})();
-</script>
